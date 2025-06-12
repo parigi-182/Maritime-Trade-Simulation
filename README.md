@@ -18,69 +18,74 @@ The simulation models:
 
 ## Key components:
 
-Shared memory for data exchange
-Semaphores for synchronization
-Message queues for communication
+- Shared memory for data exchange
+- Semaphores for synchronization
+- Message queues for communication
 
 ## Simulation:
 
-Ships navigate between random ports if goods expiration dates allows it
-Goods have expiration dates and values
-Ports have limited docking capacity
+- Ships navigate between random ports if goods expiration dates allows it
+- Goods have expiration dates and values
+- Ports have limited docking capacity
 
 ## Resource Management:
 
-Shared memory for market data
-Semaphore-protected critical sections
-Message-based request system
+- Shared memory for market data
+- Semaphore-protected critical sections
+- Message-based request system
 
 The system is configured via config.txt which specifies parameters like:
 
-Number of ships, ports, and goods types
-Map dimensions
-Ship speeds and capacities
-Simulation duration (in days)
+- Number of ships, ports, and goods types
+- Map dimensions
+- Ship speeds and capacities
+- Simulation duration (in days)
 
 ## How It Works
 
 Master Process:
-Initializes all shared resources
-Spawns port and ship processes
-Advances simulation days
-Handles termination
+1. Initializes all shared resources
+2. Spawns port and ship processes
+3. Advances simulation days
+4. Handles termination
 
 Ship Processes:
-Navigate between ports
-Load/unload goods
-Respond to port requests
+1. Navigate between ports
+2. Load/unload goods
+3. Respond to port requests
 
 Port Processes:
-Initializes goods and resources
-Just exists
+1. Initializes goods and resources
+1.1. Just exists
 
 ## Output
 
 The system generates several log files:
-out.txt - Main output
-log_dump.txt - Detailed status dumps
-log_mercato.txt - Market data
-log_navi.txt - Ship activities
+- out.txt - Main output
+- log_dump.txt - Detailed status dumps
+- log_mercato.txt - Market data
+- log_navi.txt - Ship activities
 
 Technical Details
 Uses Unix IPC mechanisms:
+
 Shared memory (shmget, shmat)
+
 Semaphores (semget, semop)
 
 Message queues (msgget, msgsnd, msgrcv)
+
 Implements complex synchronization to avoid race conditions
+
 Handles signals for process management
 
 ## Notes
 
 This project was developed as a learning exercise for:
-Process management
-Inter-process communication
-Synchronization techniques
-System programming in C
+- Process management
+- Inter-process communication
+- Synchronization techniques
+- System programming in C
 
-Original repository: https://github.com/Marco-Skiavone/ProgettoC
+# Original repository:
+https://github.com/Marco-Skiavone/ProgettoC
