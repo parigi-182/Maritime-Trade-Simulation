@@ -1,0 +1,141 @@
+Parametri:
+SO_NAVI | SO_PORTI | SO_MERCI | SO_SIZE | SO_MIN_VITA | SO_MAX_VITA | SO_LATO | SO_SPEED | SO_CAPACITY | SO_BANCHINE | SO_FILL | SO_LOADSPEED | SO_DAYS
+ 20 | 10 | 5 | 500 | 40 | 50 | 500 | 50000 | 1000 | 7 | 500000 | 500 | 20 
+
+__________________________ 
+
+SHARED_MEM_MERCATO: 25
+SHARED_MEM_DETTAGLI_LOTTI: 26
+SHARED_MEM_POSIZIONI_PORTI: 27
+SHARED_MEM_DUMP: 28
+CODA RICHIESTE: 0
+__________________________ 
+
+SEM_CREATE_GESTIONE: 0
+SEM_CREATE_BANCHINE: 1
+SEM_CREATE_DUMP: 2
+SEM_CREATE_MERCATO: 3
+__________________________ 
+
+Merce 0 val 1 exp 48
+Merce 1 val 401 exp 45
+Merce 2 val 453 exp 44
+Merce 3 val 193 exp 48
+Merce 4 val 497 exp 43
+
+MASTER: Passato giorno 1 su 20.
+
+MASTER: Passato giorno 2 su 20.
+
+MASTER: Passato giorno 3 su 20.
+
+MASTER: Passato giorno 4 su 20.
+
+MASTER: Passato giorno 5 su 20.
+
+MASTER: Passato giorno 6 su 20.
+
+MASTER: Passato giorno 7 su 20.
+
+MASTER: Passato giorno 8 su 20.
+
+MASTER: Passato giorno 9 su 20.
+
+MASTER: Passato giorno 10 su 20.
+
+MASTER: Passato giorno 11 su 20.
+
+MASTER: Passato giorno 12 su 20.
+
+MASTER: Passato giorno 13 su 20.
+
+MASTER: Passato giorno 14 su 20.
+
+MASTER: Passato giorno 15 su 20.
+
+MASTER: Passato giorno 16 su 20.
+
+MASTER: Passato giorno 17 su 20.
+
+MASTER: Passato giorno 18 su 20.
+
+MASTER: Passato giorno 19 su 20.
+MASTER: ammazzo il figlio 103117
+MASTER: ammazzo il figlio 103118
+MASTER: ammazzo il figlio 103119
+MASTER: ammazzo il figlio 103120
+MASTER: ammazzo il figlio 103121
+MASTER: ammazzo il figlio 103122
+MASTER: ammazzo il figlio 103123
+MASTER: ammazzo il figlio 103124
+MASTER: ammazzo il figlio 103125
+MASTER: ammazzo il figlio 103126
+MASTER: ammazzo il figlio 103127
+MASTER: ammazzo il figlio 103128
+MASTER: ammazzo il figlio 103129
+MASTER: ammazzo il figlio 103130
+MASTER: ammazzo il figlio 103131
+MASTER: ammazzo il figlio 103132
+MASTER: ammazzo il figlio 103133
+MASTER: ammazzo il figlio 103134
+MASTER: ammazzo il figlio 103135
+MASTER: ammazzo il figlio 103136
+MASTER: ammazzo il figlio 103137
+MASTER: ammazzo il figlio 103138
+MASTER: ammazzo il figlio 103139
+MASTER: ammazzo il figlio 103140
+MASTER: ammazzo il figlio 103141
+MASTER: ammazzo il figlio 103142
+MASTER: ammazzo il figlio 103143
+MASTER: ammazzo il figlio 103144
+MASTER: ammazzo il figlio 103145
+MASTER: ammazzo il figlio 103146
+Terminato figlio 103117 status 0
+Terminato figlio 103118 status 0
+Terminato figlio 103119 status 0
+Terminato figlio 103120 status 0
+Terminato figlio 103121 status 0
+Terminato figlio 103122 status 0
+Terminato figlio 103123 status 0
+Terminato figlio 103124 status 0
+Terminato figlio 103125 status 0
+Terminato figlio 103126 status 0
+Terminato figlio 103127 status 0
+Terminato figlio 103128 status 0
+Terminato figlio 103129 status 0
+Terminato figlio 103130 status 0
+Terminato figlio 103131 status 0
+Terminato figlio 103132 status 0
+Terminato figlio 103133 status 0
+Terminato figlio 103134 status 0
+Terminato figlio 103135 status 0
+Terminato figlio 103136 status 0
+Terminato figlio 103138 status 0
+Terminato figlio 103139 status 0
+Terminato figlio 103140 status 0
+Terminato figlio 103137 status 0
+Terminato figlio 103141 status 0
+Terminato figlio 103142 status 0
+Terminato figlio 103143 status 0
+Terminato figlio 103144 status 0
+Terminato figlio 103145 status 0
+Terminato figlio 103146 status 0
+Master sto uscendo con gestione = 0
+
+__________________________ 
+
+TUTTE LE SHARED_MEM SONO STATE SGANCIATE DAL MASTER!
+__________________________ 
+
+DISTRUGGI_SHARED_MEM_MERCATO
+DISTRUGGI_SHARED_MEM_DETTAGLI_LOTTI
+DISTRUGGI_SHARED_MEM_POSIZIONI_PORTI
+DISTRUGGI_SHARED_MEM_DUMP
+DISTRUGGI_CODA_RICHIESTE
+__________________________ 
+
+DISTRUGGI_SEM_MERCATO
+DISTRUGGI_SEM_DUMP
+DISTRUGGI_SEM_BANCHINE
+DISTRUGGI_SEM_GESTIONE
+__________________________ 
