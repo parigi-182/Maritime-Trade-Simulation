@@ -12,9 +12,9 @@ This project was build for an Italian audience, so I'll be translating/refactori
 
 The simulation models:
 
-Multiple ports (each as a separate process)
-Multiple ships (each as a separate process)
-A central master process that coordinates everything
+- Multiple ports (each as a separate process)
+- Multiple ships (each as a separate process)
+- A central master process that coordinates everything
 
 ## Key components:
 
