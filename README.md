@@ -2,7 +2,7 @@
 
 ## Project Description
 
-This is an Operating Systems Course Project from the University of Turin. The code represents a complex maritime trade simulation system where ships transport goods between ports, managing resources, synchronization, and inter-process communication.+
+This is an Operating Systems Course Project from the University of Turin. The code represents a complex maritime trade simulation system where ships transport goods between ports, managing resources, synchronization, and inter-process communication.
 
 This code is the result of combining a trio of first-time C programmers, an unquantifiable amount of caffeine, and an assignment with a not particularly high effort to reward ratio.
 
@@ -56,7 +56,7 @@ Ship Processes:
 
 Port Processes:
 1. Initializes goods and resources
-1.1. Just exists
+2. Just exists
 
 ## Output
 
@@ -66,7 +66,7 @@ The system generates several log files:
 - log_mercato.txt - Market data
 - log_navi.txt - Ship activities
 
-Technical Details
+# Technical Details
 Uses Unix IPC mechanisms:
 
 Shared memory (shmget, shmat)
